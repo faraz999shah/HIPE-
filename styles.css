@@ -1,0 +1,249 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    font-family: "Poppins", sans-serif;
+    font-family: "Roboto", sans-serif;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    background-color: white;
+    opacity: 85%;
+  }
+  
+  .logo {
+    cursor: pointer;
+    height: auto;
+    width: 210px;
+  }
+  .logo img {
+    width: 100%;
+  }
+  
+  .navbar {
+    list-style: none;
+    display: flex;
+  }
+  
+  .navbar li a {
+    padding: 0px 40px;
+    color: #707070;
+    font-weight: bold;
+    text-decoration: none;
+    letter-spacing: 1px;
+  }
+  .navbar li a:hover {
+    color: #29648a;
+  }
+  span {
+    background-color: #29648a;
+    border: 8px solid;
+    border-radius: 40px;
+    border-color: #29648a;
+    color: white;
+  }
+  .front {
+    background-image: linear-gradient(rgba(0 0 0 / 20%), rgba(0 0 0 / 20%)),
+      url(/img/akson-1K8pIbIrhkQ-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 830px;
+  }
+  .hero-text {
+    color: white;
+    padding: 290px;
+    text-shadow: 1px 1px 1px black;
+  }
+  
+  .hero-text h1 {
+    padding-top: 5px;
+    font-size: 50px;
+    text-shadow: 1px 1px 1px black;
+    font-weight: normal;
+  }
+  .hero-text p {
+    padding-top: 10px;
+    font-size: 18px;
+  }
+  
+  span {
+    font-weight: bold;
+  }
+  .features {
+    background-image: linear-gradient(to left,#29648A , #25274D);
+    display: flex;
+    flex-direction:column;
+    color: white;
+    min-height: 350px;
+    row-gap:20px;
+  }
+  
+  .flex-container {
+    display: flex;
+    justify-content:space-around;
+  }
+  
+  .features h2 {
+    font-weight: normal;
+    text-align:center;
+    padding-bottom:100px;
+  }
+  .connect {
+    background-color: white;
+    color: #29648a;
+    height: 400px;
+  }
+  
+  .connect h2 {
+    padding: 20px 30px;
+    display: flex;
+    text-align: center;
+  }
+  
+  .connect p {
+    padding: 130px 100px;
+  }
+  
+  .explain {
+    background-color: #707070;
+    height: 350px;
+  }
+  
+.section-a {
+  height: 350px;
+  background: linear-gradient(to right,#29648A,#25274D);
+  color:#fff;
+}
+
+.titles {
+  display: flex;
+  text-align: center;
+  margin-right: 5px;
+  justify-content: space-evenly;
+  padding-top: 25px;
+  color: #c6c6c6;
+}
+
+.icons {
+  font-size: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-top: 60px;
+}
+
+
+.section-a h1{
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+}
+
+
+.reason {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-top: 8px;
+}
+.reason p {
+  color: #c6c6c6;
+}
+
+.section-b {
+  height: 350px;
+  background: linear-gradient(to left,#29648A,#25274D);
+  color:#fff;
+}
+
+.section-b h1{
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.card {
+  width: 350px;
+  height: 200px;
+  border-radius: 15px;
+  margin: 5px;
+  padding: 60px 30px;
+  position: relative;
+  background-color: #707070;
+}
+
+.student-test {
+  height: 350px;
+  background: linear-gradient(to bottom, white,#c6c6c6);
+}
+.topuh {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 40px;
+}
+
+.topuh h5 {
+  padding-top: 5px;
+}
+
+.wrapper {
+  display:flex;
+  justify-content:space-around;
+}
+
+.box {
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content: center;
+  color: #c6c6c6;;
+}
+
+.wrapper {
+  height: 350px;
+  background: linear-gradient(to left,#29648A,#25274D);
+}
+.wrapper h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon {
+  font-size: 55px;
+  transition: 0.3s;
+  padding-bottom: 10px;
+}
+.icon:hover{
+  color: grey;
+}
+
+.box p {
+  padding-top: 10px;
+}
+
+.wrapper {
+  height: 350px;
+  background: linear-gradient(to right,#29648A,#25274D);
+}
+
+.contributions{
+  height: 350px;
+  background: white;
+}
