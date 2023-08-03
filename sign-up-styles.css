@@ -1,0 +1,86 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(41, 100, 138, 1),rgba(0,0,50,0.8)), url(/img/annie-spratt-dWYU3i-mqEo-unsplash.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.box {
+  width: 90%;
+  max-width: 450px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  border-radius: 22px;
+  background: #fff;
+  padding: 50px 60px 70px;
+  text-align: center;
+}
+
+.box h1 {
+  font-size: 30px;
+  margin-bottom: 40px;
+  color: #29648A;
+  position: relative; 
+}
+
+.input-field {
+  background: #eaeaea;
+  margin: 15px 0;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+
+}
+
+input {
+  width: 100%;
+  background: transparent;
+  border: 0;
+  outline: 0;
+  padding: 18px 15px;
+}
+
+.input-field i {
+  margin-left: 15px;
+  color: #999; 
+}
+
+form p{
+  text-align: left;
+  font-size: 13px;
+}
+
+form p a {
+  text-decoration: none;
+  color:rgba(41, 100, 138, 1)
+}
+
+.btn {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-top: 25px;
+}
+.btn button {
+  flex-basis: 48%;
+  background: #29648A;
+  height: 40px;
+  border-radius: 20px;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+  color: white;
+  font-size: 15px;
+}

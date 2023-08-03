@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    font-family: "Poppins", sans-serif;
+    font-family: "Roboto", sans-serif;
+    color: white;
+  }
+  
+  h2 {
+    line-height: 1;
+    flex-wrap:balance;
+  }
+  
+  h2:not(:first-child) {
+    padding-top:1rem;
+  }
+  
+  body {
+    background: linear-gradient(to right,#29648A,#25274D);
+  }
+  
+  .text {
+    max-width: 75ch;
+    line-height: 2rem;
+    margin-inline: auto;
+  }
+  
+  .toppy {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 15px;
+  }
+  .toppy i {
+    font-size: 50px;
+  }
+  .toppy h1 {
+    padding-top: 5px;
+  }
+  
+  .toppy p {
+    padding-top: 5px;
+  }
+  
+  .box {
+    padding-left: 40px;
+  }
+  
+  .box p {
+    margin: 15px 0;
+  }
